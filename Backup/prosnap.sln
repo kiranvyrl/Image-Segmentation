@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prosnap", "prosnap\prosnap.csproj", "{524E4095-D305-4837-B858-FE239BB01635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransferring", "FileTransferring\FileTransferring\FileTransferring.csproj", "{EB85E9ED-F473-4890-B39A-8D707EDD5C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadTreeApp", "QuadTreeApp\QuadTreeApp.csproj", "{CEF643AF-85D3-4422-9E6E-D78B983A3098}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524E4095-D305-4837-B858-FE239BB01635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524E4095-D305-4837-B858-FE239BB01635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524E4095-D305-4837-B858-FE239BB01635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524E4095-D305-4837-B858-FE239BB01635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB85E9ED-F473-4890-B39A-8D707EDD5C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB85E9ED-F473-4890-B39A-8D707EDD5C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB85E9ED-F473-4890-B39A-8D707EDD5C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB85E9ED-F473-4890-B39A-8D707EDD5C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF643AF-85D3-4422-9E6E-D78B983A3098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF643AF-85D3-4422-9E6E-D78B983A3098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF643AF-85D3-4422-9E6E-D78B983A3098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF643AF-85D3-4422-9E6E-D78B983A3098}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<container>
+  <meta>
+    <td>256</td>
+    <td>192</td>
+  </meta>
+  <dataOne>
+    <td>0,0</td>
+    <td>256,0</td>
+    <td>0,192</td>
+    <td>256,192</td>
+    <td>0,384</td>
+    <td>256,384</td>
+    <td>0,576</td>
+    <td>256,576</td>
+    <td>512,0</td>
+    <td>768,0</td>
+    <td>512,192</td>
+    <td>768,192</td>
+    <td>512,384</td>
+    <td>768,384</td>
+    <td>512,576</td>
+    <td>768,576</td>
+  </dataOne>
+  <dataTwo>
+    <td>256,192</td>
+    <td>0,0</td>
+    <td>0,192</td>
+    <td>256,0</td>
+    <td>0,576</td>
+    <td>0,384</td>
+    <td>256,576</td>
+    <td>256,384</td>
+    <td>512,0</td>
+    <td>768,0</td>
+    <td>768,192</td>
+    <td>512,192</td>
+    <td>512,576</td>
+    <td>512,384</td>
+    <td>768,384</td>
+    <td>768,576</td>
+  </dataTwo>
+</container>

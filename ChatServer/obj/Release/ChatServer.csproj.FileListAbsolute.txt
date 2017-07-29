@@ -1,0 +1,9 @@
+D:\project\prosnap\ChatServer\bin\Release\ChatServer.exe.config
+D:\project\prosnap\ChatServer\bin\Release\ChatServer.exe
+D:\project\prosnap\ChatServer\bin\Release\ChatServer.pdb
+D:\project\prosnap\ChatServer\obj\Release\ResolveAssemblyReference.cache
+D:\project\prosnap\ChatServer\obj\Release\ChatServer.ChatServer.resources
+D:\project\prosnap\ChatServer\obj\Release\ChatServer.Properties.Resources.resources
+D:\project\prosnap\ChatServer\obj\Release\ChatServer.csproj.GenerateResource.Cache
+D:\project\prosnap\ChatServer\obj\Release\ChatServer.exe
+D:\project\prosnap\ChatServer\obj\Release\ChatServer.pdb

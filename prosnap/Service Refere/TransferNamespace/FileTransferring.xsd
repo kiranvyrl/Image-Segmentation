@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/FileTransferring" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/FileTransferring" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="FilesTransfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Action" type="tns:Action" />
+      <xs:element minOccurs="0" name="Files" nillable="true" type="tns:ArrayOfTransfer" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FilesTransfer" nillable="true" type="tns:FilesTransfer" />
+  <xs:simpleType name="Action">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Invite" />
+      <xs:enumeration value="Ok" />
+      <xs:enumeration value="Busy" />
+      <xs:enumeration value="Cancel" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Action" nillable="true" type="tns:Action" />
+  <xs:complexType name="ArrayOfTransfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Transfer" nillable="true" type="tns:Transfer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTransfer" nillable="true" type="tns:ArrayOfTransfer" />
+  <xs:complexType name="Transfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Catalog" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FullPath" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Length" type="xs:long" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Transfer" nillable="true" type="tns:Transfer" />
+</xs:schema>

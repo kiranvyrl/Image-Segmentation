@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>prosnap</name>
+    </assembly>
+    <members>
+        <member name="F:prosnap.ImagePanel.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:prosnap.ImagePanel.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:prosnap.ImagePanel.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:prosnap.FileExists.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:prosnap.FileExists.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:prosnap.FileExists.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:prosnap.prosnap1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:prosnap.prosnap1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:prosnap.prosnap1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:prosnap.ChooseMethod.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:prosnap.ChooseMethod.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:prosnap.ChooseMethod.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSet.FileDetailsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSet.FileDetailsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSet.FileDetailsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.#ctor(System.String)">
+            <summary>
+            Constructor for hex key
+            </summary>
+            <param name="hexKey">Cipher key as a hex string</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.#ctor(System.Byte[])">
+            <summary>
+            Constructor for byte key
+            </summary>
+            <param name="cipherKey">Cipher key as a byte array</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Encrypt_CBC(System.String)">
+            <summary>
+            Encrypts a string in CBC mode
+            </summary>
+            <param name="pt">Plaintext data to encrypt</param>
+            <returns>Ciphertext with IV appended to front</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Decrypt_CBC(System.String)">
+            <summary>
+            Decrypts a string in CBC mode
+            </summary>
+            <param name="ct">Ciphertext with IV appended to front</param>
+            <returns>Plaintext</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Decrypt_CBC(System.Byte[])">
+            <summary>
+            Decrypts a byte array in CBC mode.
+            IV must be created and saved manually.
+            </summary>
+            <param name="ct">Ciphertext data to decrypt</param>
+            <returns>Plaintext</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Encrypt_CBC(System.Byte[])">
+            <summary>
+            Encrypts a byte array in CBC mode.
+            IV must be created and saved manually.
+            </summary>
+            <param name="pt">Plaintext data to encrypt</param>
+            <returns>Ciphertext</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Encrypt_ECB(System.String)">
+            <summary>
+            Encrypt a string in ECB mode
+            </summary>
+            <param name="pt">Plaintext to encrypt as ascii string</param>
+            <returns>hex value of encrypted data</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Decrypt_ECB(System.String)">
+            <summary>
+            Decrypts a string (ECB)
+            </summary>
+            <param name="ct">hHex string of the ciphertext</param>
+            <returns>Plaintext ascii string</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Encrypt_ECB(System.Byte[])">
+            <summary>
+            Encrypts a byte array in ECB mode
+            </summary>
+            <param name="pt">Plaintext data</param>
+            <returns>Ciphertext bytes</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Decrypt_ECB(System.Byte[])">
+            <summary>
+            Decrypts a byte array (ECB)
+            </summary>
+            <param name="ct">Ciphertext byte array</param>
+            <returns>Plaintext</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.SetRandomIV">
+            <summary>
+            Creates and sets a random initialization vector.
+            </summary>
+            <returns>The random IV</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.SetupKey(System.Byte[])">
+            <summary>
+            Sets up the S-blocks and the key
+            </summary>
+            <param name="cipherKey">Block cipher key (1-448 bits)</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Crypt_ECB(System.Byte[],System.Boolean)">
+            <summary>
+            Encrypts or decrypts data in ECB mode
+            </summary>
+            <param name="text">plain/ciphertext</param>
+            <param name="decrypt">true to decrypt, false to encrypt</param>
+            <returns>(En/De)crypted data</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.Crypt_CBC(System.Byte[],System.Boolean)">
+            <summary>
+            Encrypts or decrypts data in CBC mode
+            </summary>
+            <param name="text">plain/ciphertext</param>
+            <param name="decrypt">true to decrypt, false to encrypt</param>
+            <returns>(En/De)crypted data</returns>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.XorBlock(System.Byte[]@,System.Byte[])">
+            <summary>
+            XoR encrypts two 8 bit blocks
+            </summary>
+            <param name="block">8 bit block 1</param>
+            <param name="iv">8 bit block 2</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.BlockEncrypt(System.Byte[]@)">
+            <summary>
+            Encrypts a 64 bit block
+            </summary>
+            <param name="block">The 64 bit block to encrypt</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.BlockDecrypt(System.Byte[]@)">
+            <summary>
+            Decrypts a 64 bit block
+            </summary>
+            <param name="block">The 64 bit block to decrypt</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.SetBlock(System.Byte[])">
+            <summary>
+            Splits the block into the two uint values
+            </summary>
+            <param name="block">the 64 bit block to setup</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.GetBlock(System.Byte[]@)">
+            <summary>
+            Converts the two uint values into a 64 bit block
+            </summary>
+            <param name="block">64 bit buffer to receive the block</param>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.encipher">
+            <summary>
+            Runs the blowfish algorithm (standard 16 rounds)
+            </summary>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.decipher">
+            <summary>
+            Runs the blowfish algorithm in reverse (standard 16 rounds)
+            </summary>
+        </member>
+        <member name="M:CRYBlowFish.BlowFish.round(System.UInt32,System.UInt32,System.UInt32)">
+            <summary>
+            one round of the blowfish algorithm
+            </summary>
+            <param name="a">See spec</param>
+            <param name="b">See spec</param>
+            <param name="n">See spec</param>
+            <returns></returns>
+        </member>
+        <member name="P:CRYBlowFish.BlowFish.IV">
+            <summary>
+            Initialization vector for CBC mode.
+            </summary>
+        </member>
+        <member name="T:prosnap.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:prosnap.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:prosnap.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSetTableAdapters.FileDetailsTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(prosnap.ImageSecurityDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(prosnap.ImageSecurityDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(prosnap.ImageSecurityDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.UpdateAll(prosnap.ImageSecurityDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:prosnap.ImageSecurityDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="M:prosnap.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

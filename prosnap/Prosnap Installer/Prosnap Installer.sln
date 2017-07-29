@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Prosnap Installer", "Prosnap Installer\Prosnap Installer.vdproj", "{C51DFECA-DCCD-4A57-881D-0D1D820C80EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C51DFECA-DCCD-4A57-881D-0D1D820C80EB}.Debug|Default.ActiveCfg = Debug
+		{C51DFECA-DCCD-4A57-881D-0D1D820C80EB}.Debug|Default.Build.0 = Debug
+		{C51DFECA-DCCD-4A57-881D-0D1D820C80EB}.Release|Default.ActiveCfg = Release
+		{C51DFECA-DCCD-4A57-881D-0D1D820C80EB}.Release|Default.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
